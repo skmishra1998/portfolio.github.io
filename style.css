@@ -61,10 +61,10 @@ body#bg-image{
 .icon a:hover{
     color: yellow;
 }
-@media only screen and (min-width: 319px) and (max-width: 426px){
+@media only screen and (min-width: 319px) and (max-width: 500px){
     .menu-item-show{
         width: 75%;
-        padding-top: 25%;
+        padding-top: 15%;
     }
     .menu-item-show h1{
         font-size: 2.5rem;
@@ -82,6 +82,40 @@ body#bg-image{
         margin-left: 30px;
     }
 
+}
+@media only screen and (min-width: 501px) and (max-width: 768px){
+    .menu-item-show{
+        width: 75%;
+        padding-top: 10%;
+    }
+    .menu-item-show h1{
+        font-size: 2.5rem;
+        padding-left: 30px;
+    }
+    /* .menu-item-show h1 span{
+        padding-left: 30px;
+    } */
+    .menu-item-show h3{
+        font-size: small;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+    .icon{
+        margin-left: 30px;
+    }
+
+}
+@media only screen and (min-width: 769px) and (max-width: 1025px){
+    .menu-item-show{
+        width: 75%;
+        padding-top: 10%;
+    }
+}
+@media only screen and (min-width: 1026px) and (max-width: 1440px){
+    .menu-item-show{
+        width: 75%;
+        padding-top: 10%;
+    }
 }
 
 /*---------------------------------about page-------------------------------------*/
@@ -318,7 +352,6 @@ body#menu-bg{
     .skill h2{
         font-size: 1rem;
         text-align: left;
-        padding-left: 20px;
     }
 }
 @media only screen and (min-width: 770px) and (max-width: 1026px){
@@ -540,7 +573,7 @@ main{
     color: yellow;
 }
 #work h2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #fff;
     line-height: 4rem;
 }
@@ -701,6 +734,7 @@ main{
 
 #contact-background{
     background-color: rgb(44, 43, 43);
+    background-size: cover;
 }
 
  .contact-main h1{
@@ -754,6 +788,7 @@ main{
     }
     .contact-main h2{
         text-align: center;
+        font-size: large;
     }
     .contact-item{
         padding-top: 1rem;
